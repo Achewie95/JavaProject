@@ -1,5 +1,6 @@
 package com.humber.project.entity;
 
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -21,4 +22,5 @@ public class User {
     private String password;
     private boolean isActive;
     private String role;
+
 }
